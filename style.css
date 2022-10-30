@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  font-family: "Poppins";
+}
+.navbar {
+  backdrop-filter: blur(4px);
+}
+
+.navbar .navbar-brand,
+.content .nama h4 {
+  color: #ffc107;
+}
+
+.content .foto img {
+  width: 100%;
+}
+
+.backNone {
+  display: none;
+}
+
+.backActive {
+  display: block;
+  transition: all 1s ease-in-out;
+}
+
+.about .sosial a i,
+.footer p a {
+  color: #898f94;
+  transition: all 0.3s;
+}
+
+.about .sosial a:hover i,
+.footer p a:hover,
+.footer .sosial a i:hover {
+  color: #ffc107;
+}
+
+.contact form input:focus,
+.contact form textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(236, 240, 0, 0.4);
+}
+
+.footer .sosial a i {
+  color: #ddd;
+}
+
+.footer .link:hover {
+  text-decoration: underline !important;
+}
+@media screen and (max-width: 992px) {
+  .content .foto img {
+    width: 70%;
+  }
+  .project .title {
+    margin-top: 3em;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  .project {
+    padding: 6em;
+  }
+}
